@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vibrancy Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="mobile.css">
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+	<header>
+		<div class="header">
+			<h1>Vibrancy</h1>
+			<div class="header__underscore">
+				<p><a href="#about">Explore. Discover. Inspire.</a></p>
+				<p><a href="#searchSection">Dive In</a></p>
+				<p class="header__date">Monday, September 25, 2023</p>
+			</div>
+		</div>
+	</header>
+	<section id="about" class="about">
+		<div class="about__image">
+			<img src="assets/about.jpeg" alt="about image">
+		</div>
+		<div class="about__text">
+			<h2>vibrancy</h2>
+			<p>Welcome to the colorful image gallery, where bold neon hues dance on the screen and subtle pastel tones send your mind into an artistic frenzy. Simply type your desires, and our gallery will unveil a stunning collection of photos tailored to your every request.</p>
+		</div>
+	</section>
+	<section id="searchSection" class="search">
+		<label for="search">
+			<img class="search__ico" src="assets/search.png" alt="search">
+			<span class="search__delete search__delete_hided">+</span>
+		</label>
+		<input id="search" type="text" autocomplete="off" name="img_search" placeholder="look for inspiration ...">
+	</section>
+	<section class="images">
+		<div class="images__wrapper grid_item1" position="top left">
+			<img src="https://live.staticflickr.com/65535/49555702668_9bf43a683a_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item2" position="top">
+			<img src="https://live.staticflickr.com/65535/50918700081_2c2796ebc1_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item3" position="top right">
+			<img src="https://live.staticflickr.com/5527/30670621543_2d6b291d34_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item4 even" position="left">
+			<img src="https://live.staticflickr.com/65535/52490286104_614cc5aefe_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item5">
+			<img src="https://live.staticflickr.com/8334/8386958713_465e9f6e23_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item6 even" position="left">
+			<img src="https://live.staticflickr.com/65535/49329408322_9dbf5bcdf1_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item7">
+			<img src="https://live.staticflickr.com/65535/49142599247_0001c7924d_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item8 even">
+			<img src="https://live.staticflickr.com/65535/50049330156_2a3a8e0e7a_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item9" position="right">
+			<img src="https://live.staticflickr.com/65535/48550002917_bdff7d0faa_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item10 even" position="bottom left">
+			<img src="https://live.staticflickr.com/1609/26056948932_de8c3b0fca_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item11">
+			<img src="https://live.staticflickr.com/5524/30790969022_8f763c17b7_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item12 even" position="right">
+			<img src="https://live.staticflickr.com/65535/52775436180_4baf7473a7_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item13" position="bottom">
+			<img src="https://live.staticflickr.com/65535/52619707298_d2a4f568ea_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+		<div class="images__wrapper grid_item14" position="bottom right">
+			<img src="https://live.staticflickr.com/1473/25948459882_e3460f5548_b.jpg" alt="flickr image">
+			<span class="images__error images__error_hide">not found</span>
+		</div>
+	</section>
+	<section class="control control__onload">
+		<div class="control__back">
+			<span>^</span>
+		</div>
+		<div class="control__fwd">
+			<span>^</span>
+		</div>
+	</section>
+	<section class="more">
+		<h3>Hungry for more colors? <a href="https://www.flickr.com/" target="_blank">Jump into the Flickr!</a></h3>
+	</section>
+	<footer>
+		<div class="footer__links">
+			<a href="https://github.com/zelenolis"><img src="assets/git.png" alt="github">zelenolis</a>
+		</div>
+		<div class="footer_year">
+			<p>© 2023 Vibrancy Image Gallery - MIT License</p>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
