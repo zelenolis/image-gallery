@@ -1,4 +1,6 @@
 # Image gallery pet-project 
+
+##### deploy link: https://zelenolis.github.io/image-gallery/index.html
 ___
 ### Screenshot:
 ![screenshot](https://github.com/zelenolis/image-gallery/blob/main/assets/screenshot.JPG?raw=true)
