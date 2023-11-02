@@ -1,0 +1,120 @@
+@media (max-width: 1200px) {
+	.about__text p {
+		font-size: 1.3rem;
+	}
+	.search {
+		height: 4vh;
+	}
+	.search__ico {
+		width: 18px;
+	}
+	.search__delete, .search input, .search input:focus, .search input::placeholder {
+		font-size: 1.4rem;
+	}
+}
+
+@media (max-width: 1000px) {
+	.about__text h2 {
+		font-size: 2.5rem;
+	}
+	.about__text p {
+		font-size: 1rem;
+	}
+	.header__underscore {
+		font-size: 0.8rem;
+	}
+	.search__ico {
+		width: 16px;
+	}
+	.search__delete, .search input, .search input:focus, .search input::placeholder {
+		font-size: 1.3rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.header__underscore {
+		font-size: 0.6rem;
+	}
+}
+
+@media (max-width: 700px) {
+	.about__text h2 {
+		font-size: 1.6rem;
+	}
+	.about__text p {
+		font-size: 0.7rem;
+	}
+	.search {
+		height: 3.2vh;
+	}
+	.search__ico {
+		width: 14px;
+	}
+	.search__delete, .search input, .search input:focus, .search input::placeholder {
+		font-size: 1.1rem;
+	}
+	.images {
+		grid-template-columns: 1fr 1fr;
+	}
+	.grid_item3 {
+		grid-column: auto;
+		grid-row: auto;
+	}
+	.grid_item10 {
+		grid-column: auto;
+		grid-row: auto;
+	}
+	.images__wrapper_large {
+		z-index: 5;
+		transform: scale(2);
+		box-shadow: 3px 3px 10px var(--black), -3px 3px 10px var(--black); 
+		transition: 0.3s ease-in-out;
+	}
+	.images__wrapper img:hover {
+		cursor: auto;
+		transform: scale(1);
+	}
+	.more {
+		height: 200px;
+	}
+	.more h3 {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.about__text h2 {
+		font-size: 1rem;
+	}
+	.about__text p {
+		font-size: 0.5rem;
+	}
+	.header__underscore {
+		font-size: 0.4rem;
+	}
+	.search {
+		height: 2.5vh;
+	}
+	.search__ico {
+		width: 12px;
+	}
+	.search__delete {
+		top: 10%;
+	}
+	.search__delete, .search input, .search input:focus, .search input::placeholder {
+		font-size: 0.9rem;
+	}
+	.images {
+		grid-template-columns: 1fr;
+	}
+	.more {
+		height: 150px;
+	}
+	.more h3 {
+		font-size: 1.5rem;
+	}
+	.images__wrapper img:hover {
+		cursor: auto;
+		transform: scale(1);
+	}
+}
